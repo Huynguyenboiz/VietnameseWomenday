@@ -102,8 +102,4 @@ canvas {
   background: rgba(0,0,0,0.4);
   border-radius: 12px;
 }
-html, body {
-  min-width: 1200px;
-  overflow-x: auto;  /* cho phép cuộn ngang nếu màn hình hẹp */
-}
 

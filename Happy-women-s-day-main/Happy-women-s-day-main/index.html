@@ -9,7 +9,7 @@
 <div class="night">
     <div class="march_text">
         <h1 class="animated_march_text">Chúc mừng ngày Phụ nữ Việt Nam 20/10!!!</h1>
-        <h1 class="animated_march_text2">Big luv from Huyy to Kim Chi ❤️❤️❤️</h1>
+        <h1 class="animated_march_text2">Big luv from Huyy to <span id="toName">You</span> ❤️❤️❤️</h1>
     </div>
 </div>
 <div class="flowers">
@@ -309,9 +309,15 @@
         </div>
     </div>
 </div>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get("to") || "You";
+  document.getElementById("toName").textContent = name;
+</script>
 <!-- Link sang Project 2 -->
 <a class="go-project2" href="../../Womens-day-surprise-main/Womens-day-surprise-main/index.html" title="Bấm vào nè">Mở ra đii →</a>
 <script src="java.js"></script>
 </body>
+
 
 </html>
